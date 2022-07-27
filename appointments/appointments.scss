@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+nav {
+  padding: 3rem 15rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+  color: white;
+}
+
+#add-appointment {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0.05em 0.5em;
+  margin: -1em 1em 0.5em 1em;
+  float: right;
+  text-decoration: none;
+  color: white;
+  background-color: #f16022;
+  border-radius: 50%;
+}
+
+.table-container {
+  margin: 2em;
+}
+
+table,
+th,
+td {
+  margin: auto;
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 99%;
+}
+
+i {
+  padding: 2px;
+  margin: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: green;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+  nav {
+    padding: 3rem 10rem;
+
+    a {
+      font-size: 1.5rem;
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #add-appointment {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 0.05em 0.5em;
+    margin: -2em 1em 0.5em 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    padding: 3rem 5rem;
+
+    a {
+      font-size: 1.25rem;
+    }
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  nav {
+    padding: 2rem;
+
+    a {
+      font-size: 1.15rem;
+    }
+  }
+
+  h1 {
+    font-size: 1.85rem;
+    margin-bottom: 2.15rem;
+  }
+
+  #add-appointment {
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding: 0.05em 0.5em;
+    margin: -2em 1em 0.5em 1em;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  table {
+    width: 90%;
+  }
+
+  th,
+  td {
+    font-size: 0.8;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  nav {
+    padding: 1rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #add-appointment {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.05em 0.5em;
+    margin: -2em 1em 0.5em 1em;
+  }
+
+  table,
+  th {
+    font-size: 0.6rem;
+  }
+}

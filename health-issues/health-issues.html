@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../shared/shared.css" />
+    <link rel="stylesheet" href="health-issues.css" />
+    <title>Health Issues</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="../home.html">SL <span>CLINIC</span></a>
+      <a href="../doctors/doctors.html">Doctors</a>
+    </nav>
+
+    <h1>Health Issues</h1>
+    <h2>Provide information to the doctor about your ailment.</h2>
+
+    <form
+      action="../appointments/appointments.html"
+      autocomplete="off"
+      class="health-issue__form"
+    >
+      <label>Title</label>
+      <select id="title">
+        <option value="Select" selected>Select</option>
+        <option value="Mr">Mr</option>
+        <option value="Ms">Ms</option>
+        <option value="Mrs">Mrs</option>
+      </select>
+      <label>Surname</label>
+      <input type="text" id="surname" />
+      <label>First Name</label>
+      <input type="text" id="first-name" />
+      <label>Address</label>
+      <input type="text" id="address" />
+      <label>Phone</label>
+      <input type="text" id="phone" />
+      <label>Issue</label>
+      <select id="issue">
+        <option value="Select" selected>Select</option>
+        <option value="Cough">Cough</option>
+        <option value="Flu">Flu</option>
+        <option value="Soreness">Soreness</option>
+        <option value="Joint Pain">Joint Pain</option>
+        <option value="Headache">Headache</option>
+        <option value="Other">Other</option>
+      </select>
+      <label>More Information</label>
+      <textarea id="more-info"></textarea>
+      <button
+        type="button"
+        class="back-button"
+        onclick="location.href = '../appointments/appointments.html';
+        sessionStorage.clear();"
+      >
+        Back
+      </button>
+      <button type="submit" class="submit-button" onclick="return onSubmit()">
+        Submit
+      </button>
+    </form>
+
+    <script src="health-issues.js"></script>
+  </body>
+</html>

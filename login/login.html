@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../shared/shared.css" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a routerLink="">SL <span>CLINIC</span></a>
+      <a routerLink="/doctors">Doctors</a>
+    </nav>
+    <h1>Login</h1>
+    <form action="/appointments" autocomplete="off" class="login__form">
+      <label id="user-name__label">User Name</label>
+      <input type="text" id="user-name" />
+      <br />
+      <label id="password__label">Password</label>
+      <input type="password" id="password" />
+      <br />
+      <button type="submit" class="button" onclick="return validate()">
+        Submit
+      </button>
+    </form>
+
+    <script src="login.js"></script>
+  </body>
+</html>

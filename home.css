@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(255, 255, 255, 0))), url(/img/home-page-hero.jpg);
+  background-image: linear-gradient(black, rgba(255, 255, 255, 0)), url(/img/home-page-hero.jpg);
+  background-size: cover;
+  background-position: 50% -15%;
+  background-color: #2d575e;
+  height: 100vh;
+}
+
+.hero nav {
+  padding: 4rem 5rem;
+}
+
+.hero nav .home {
+  pointer-events: none;
+}
+
+.hero .main-box {
+  margin: 5rem auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.hero .main-box h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: white;
+  white-space: nowrap;
+}
+
+.hero .main-box a {
+  background-color: #f16022;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 1em;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 300px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(rgba(255, 255, 255, 0))), url(/img/home-page-hero-phone.jpg);
+    background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0)), url(/img/home-page-hero-phone.jpg);
+    background-size: cover;
+  }
+  .hero nav {
+    padding: 2rem 2rem;
+  }
+  .hero nav a {
+    font-size: 1.15rem;
+  }
+  .hero .main-box {
+    margin: 7rem 2rem;
+  }
+  .hero .main-box h1 {
+    font-size: 1.25rem;
+    white-space: normal;
+  }
+  .hero .main-box a {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(rgba(255, 255, 255, 0))), url(/img/home-page-hero-phone.jpg);
+    background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0)), url(/img/home-page-hero-phone.jpg);
+    background-size: cover;
+  }
+  .hero nav {
+    padding: 3rem;
+  }
+  .hero nav a {
+    font-size: 2rem;
+  }
+  .hero nav a span {
+    color: #f16022;
+  }
+  .hero .main-box {
+    margin: 15rem 2rem;
+  }
+  .hero .main-box h1 {
+    font-size: 3rem;
+    white-space: normal;
+  }
+  .hero .main-box a {
+    padding: 0.75rem 1.25rem;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(rgba(255, 255, 255, 0))), url(/img/home-page-hero-phone.jpg);
+    background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0)), url(/img/home-page-hero-phone.jpg);
+    background-size: cover;
+    background-position: 50% 15%;
+  }
+  .hero nav {
+    padding: 5rem;
+  }
+  .hero nav a {
+    font-size: 3rem;
+  }
+  .hero nav a span {
+    color: #f16022;
+  }
+  .hero .main-box {
+    margin: 20rem 4rem;
+  }
+  .hero .main-box h1 {
+    font-size: 4rem;
+    white-space: normal;
+  }
+  .hero .main-box a {
+    padding: 1rem 1.5rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(255, 255, 255, 0))), url(/img/home-page-hero.jpg);
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0)), url(/img/home-page-hero.jpg);
+    background-size: cover;
+    background-position: 50% -15%;
+  }
+  .hero nav {
+    padding: 4rem 5rem;
+  }
+  .hero nav a {
+    font-size: 1.75rem;
+  }
+  .hero .main-box {
+    margin: 5rem auto;
+  }
+  .hero .main-box h1 {
+    font-size: 3.5rem;
+  }
+  .hero .main-box a {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 1em;
+  }
+}
+/*# sourceMappingURL=home.css.map */

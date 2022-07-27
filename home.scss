@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.hero {
+  background-image: linear-gradient(black, rgba(255, 255, 255, 0)),
+    url(/img/home-page-hero.jpg);
+  background-size: cover;
+  background-position: 50% -15%;
+  background-color: #2d575e;
+  height: 100vh;
+
+  nav {
+    padding: 4rem 5rem;
+
+    .home {
+      pointer-events: none;
+    }
+  }
+
+  .main-box {
+    margin: 5rem auto;
+    width: fit-content;
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 300;
+      color: white;
+      white-space: nowrap;
+    }
+
+    a {
+      background-color: #f16022;
+      padding: 1rem 2rem;
+      font-size: 2rem;
+      border-radius: 1em;
+      text-decoration: none;
+      color: white;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .hero {
+    background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0)),
+      url(/img/home-page-hero-phone.jpg);
+    background-size: cover;
+
+    nav {
+      padding: 2rem 2rem;
+
+      a {
+        font-size: 1.15rem;
+      }
+    }
+
+    .main-box {
+      margin: 7rem 2rem;
+
+      h1 {
+        font-size: 1.25rem;
+        white-space: normal;
+      }
+
+      a {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hero {
+    background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0)),
+      url(/img/home-page-hero-phone.jpg);
+    background-size: cover;
+
+    nav {
+      padding: 3rem;
+
+      a {
+        font-size: 2rem;
+
+        span {
+          color: #f16022;
+        }
+      }
+    }
+
+    .main-box {
+      margin: 15rem 2rem;
+
+      h1 {
+        font-size: 3rem;
+        white-space: normal;
+      }
+
+      a {
+        padding: 0.75rem 1.25rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .hero {
+    background-image: linear-gradient(black 10%, rgba(255, 255, 255, 0)),
+      url(/img/home-page-hero-phone.jpg);
+    background-size: cover;
+    background-position: 50% 15%;
+
+    nav {
+      padding: 5rem;
+
+      a {
+        font-size: 3rem;
+
+        span {
+          color: #f16022;
+        }
+      }
+    }
+
+    .main-box {
+      margin: 20rem 4rem;
+
+      h1 {
+        font-size: 4rem;
+        white-space: normal;
+      }
+
+      a {
+        padding: 1rem 1.5rem;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0)),
+      url(/img/home-page-hero.jpg);
+    background-size: cover;
+    background-position: 50% -15%;
+
+    nav {
+      padding: 4rem 5rem;
+
+      a {
+        font-size: 1.75rem;
+      }
+    }
+
+    .main-box {
+      margin: 5rem auto;
+
+      h1 {
+        font-size: 3.5rem;
+      }
+
+      a {
+        padding: 1rem 2rem;
+        font-size: 2rem;
+        border-radius: 1em;
+      }
+    }
+  }
+}

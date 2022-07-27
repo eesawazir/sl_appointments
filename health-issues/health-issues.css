@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+nav {
+  padding: 4rem 20rem 0rem 20rem;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 300;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  color: white;
+}
+
+.health-issue__form {
+  display: -ms-grid;
+  display: grid;
+  width: 50rem;
+  -ms-grid-columns: 0.25fr 0.5fr;
+      grid-template-columns: 0.25fr 0.5fr;
+  -ms-grid-rows: (0.25fr)[9];
+      grid-template-rows: repeat(9, 0.25fr);
+  grid-gap: 20px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.health-issue__form #more-info {
+  height: 5rem;
+}
+
+.health-issue__form button {
+  margin-top: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+}
+
+.health-issue__form .back-button {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  grid-row: 8 / 9;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  background-color: #929292;
+  color: black;
+}
+
+.health-issue__form .submit-button {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  grid-row: 8 / 9;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  background-color: #f16022;
+  color: white;
+}
+
+@media only screen and (max-width: 1300px) {
+  nav {
+    padding: 4rem 10rem 0rem 10rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    padding: 4rem 8rem 0rem 8rem;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  nav {
+    padding: 4rem 4rem 0rem 4rem;
+  }
+  .health-issue__form {
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .health-issue__form {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  nav a {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  .health-issue__form {
+    width: 20rem;
+  }
+  .health-issue__form label,
+  .health-issue__form input {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .health-issue__form {
+    width: 15rem;
+  }
+}
+/*# sourceMappingURL=health-issues.css.map */
